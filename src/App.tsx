@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'motion/react';
+import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'framer-motion';
 import { ArrowRight, Menu, Search, Fingerprint, Sparkles, Droplets, Globe, ChevronDown, Play } from 'lucide-react';
 import React, { useState, useEffect, useRef } from 'react';
 
@@ -67,7 +67,7 @@ export default function App() {
   }, []);
 
   // Elegant, slow easing for luxury feel
-  const ease = [0.25, 0.1, 0.25, 1];
+  const ease: [number, number, number, number] = [0.25, 0.1, 0.25, 1];
 
   // Reusable blur reveal animation variants
   const blurReveal = {
