@@ -566,6 +566,10 @@ export default function App() {
               <a href="#" className="hover:text-gold transition-colors">Terms of Service</a>
             </div>
           </div>
+          
+          <div className="text-center mt-8 text-[8px] text-[#F5F2ED]/20">
+            built with love by <a href="https://www.ibuild.work" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">ibuild.work</a>
+          </div>
         </div>
       </footer>
     </div>
